@@ -57,9 +57,8 @@ public class Main {
 
             System.out.println("Digite la capacidad maxima de pasajeros del vuelo");
             int capacidadMaximaPasajeros = scanner.nextInt();
-            if capacidadMaximaPasajeros {
-
-        }
+                 if (capacidadMaximaPasajeros > 200) {
+                System.out.println("Este vuelo supera la cantidad de pasajeros");
 
             break;
         case 2:
@@ -78,6 +77,9 @@ public class Main {
 
             System.out.println("Digite la capacidad maxima de pasajeros del vuelo");
             capacidadMaximaPasajeros = scanner.nextInt();
+             if (capacidadMaximaPasajeros > 200) {
+             System.out.println("Este vuelo supera la cantidad de pasajeros");
+                 
             break;
         case 3:
             System.out.println("(3) Nombre:Diego" + "Pasaporte: 62170" + "Edad: 87" + "Preferencia alimentaria: Omnivoro");
@@ -95,6 +97,9 @@ public class Main {
 
             System.out.println("Digite la capacidad maxima de pasajeros del vuelo");
             capacidadMaximaPasajeros = scanner.nextInt();
+            
+            if (capacidadMaximaPasajeros > 200) {
+          System.out.println("Este vuelo supera la cantidad de pasajeros");
 
             break;
 
